@@ -1,0 +1,38 @@
+body{
+    background-color: #151515;
+    background-image: url(https://wallpapercave.com/wp/wp8778809.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#visualizador{
+    width: 400px;
+    margin: 30px auto;
+}
+
+#visualizador img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#skins{
+    display: flex;
+    justify-content: center;
+
+}
+
+#skins img{
+    height: 80px;
+    width: 110px;
+    object-fit: cover;
+    margin: 8px;
+    border: 2px solid #f1a706;
+}
+
+#skins img:hover {
+    height: 160px;
+    width: 220px;
+
+}
